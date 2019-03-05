@@ -1,0 +1,10 @@
+/* moderni box model */
+html { box-sizing: border-box; }
+*, ::after, ::before { box-sizing: inherit; }
+
+/* základní styly */
+body {
+  font: 16px/1.5 sans-serif;
+  margin: 0;
+  padding: 1em;
+}
